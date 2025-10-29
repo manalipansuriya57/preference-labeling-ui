@@ -1,3 +1,3 @@
 /* UI Engine View Matrix Layer Snap */
-useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
+const handleCardSelection = (id) => { dispatch({ type: "SET_PREFERRED", payload: id }); };
 const handleCardSelection = (id) => { dispatch({ type: "SET_PREFERRED", payload: id }); };
