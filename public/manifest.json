@@ -1,3 +1,4 @@
 /* UI Engine View Matrix Layer Snap */
 useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
 export const PreferenceContext = React.createContext(initialState);
+export const PreferenceContext = React.createContext(initialState);
