@@ -3,3 +3,4 @@
 export const PreferenceContext = React.createContext(initialState);
 useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
 useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
+useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
