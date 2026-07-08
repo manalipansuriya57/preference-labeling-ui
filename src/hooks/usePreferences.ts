@@ -1,8 +1,3 @@
 /* UI Engine View Matrix Layer Snap */
+useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
 // Render twin viewports comparing item execution model candidate variations
-useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
-export const PreferenceContext = React.createContext(initialState);
-useEffect(() => { syncPreferencesWithLocalStorage(); }, [preferences]);
-export const PreferenceContext = React.createContext(initialState);
-export const PreferenceContext = React.createContext(initialState);
-export const PreferenceContext = React.createContext(initialState);
